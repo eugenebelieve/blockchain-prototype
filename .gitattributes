@@ -1,2 +1,1 @@
-*.js linguist-detectable=false
-*.nodejs linguist-detectable=false
+*.js linguist-detectable=true
