@@ -2,12 +2,12 @@
 
 ## Builds a chain of hashed blocks of financial statements in your Database
 
-### First Change the URI 
+### Change the Connection URI to your Database
 
-Replace \_URI_CONNEXION_STRING_ by your Database URI:
+Replace URI_CONNECTION_STRING by your Database URI:
 
 ```
-mongoose.connect("URI_CONNEXION_STRING",{ useUnifiedTopology: true, useNewUrlParser: true }).then(()=>{
+mongoose.connect("URI_CONNECTION_STRING",{ useUnifiedTopology: true, useNewUrlParser: true }).then(()=>{
     console.log("Successfully Connected to DATABASE")
 }).catch(err=>{
     console.log("DB Connection Error" + err)

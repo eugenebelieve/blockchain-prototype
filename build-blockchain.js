@@ -2,7 +2,7 @@ const Block = require("./blockchain/block");
 const faker = require("faker");
 const mongoose = require("mongoose");
 
-mongoose.connect("_URI_CONNEXION_STRING_",{ useUnifiedTopology: true, useNewUrlParser: true }).then(()=>{
+mongoose.connect("URI_CONNEXION_STRING",{ useUnifiedTopology: true, useNewUrlParser: true }).then(()=>{
     //console.log("Successfully Connected to DATABASE")
 }).catch(err=>{
     console.log("Unable to Connect to Database" + err)
