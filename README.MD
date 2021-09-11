@@ -1,11 +1,10 @@
 # TINY BLOCKCHAIN PROJECT
 
-## To Build a chain of hashed blocks in your Database
-
+## Builds a chain of hashed blocks of financial statements in your Database
 
 ### First Change the URI 
 
-Replace URI_CONNEXION_STRING by your Database URI:
+Replace \_URI_CONNEXION_STRING_ by your Database URI:
 
 ```
 mongoose.connect("URI_CONNEXION_STRING",{ useUnifiedTopology: true, useNewUrlParser: true }).then(()=>{

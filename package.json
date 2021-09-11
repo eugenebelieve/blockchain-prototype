@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --watchAll",
-    "build-blockchain": "nodemon build-blockchain",
+    "build-blockchain": "node build-blockchain",
     "start": "node ./app",
     "dev": "nodemon ./app"
   },
